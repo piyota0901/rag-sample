@@ -1,3 +1,10 @@
+# Add My settings
+/llm/models/
+startups_vectors.npy
+startups_demo.jsons
+.vscode/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

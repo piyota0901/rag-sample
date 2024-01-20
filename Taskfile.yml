@@ -1,0 +1,7 @@
+version: "3"
+
+tasks:
+  clean:pycache:
+    desc: Remove all __pycache__ directories
+    cmds:
+      - find . -type d -name __pycache__ -exec rm -r {} +
