@@ -5,3 +5,8 @@ tasks:
     desc: Remove all __pycache__ directories
     cmds:
       - find . -type d -name __pycache__ -exec rm -r {} +
+
+  run:qdrant:
+    desc: Run Qdrant
+    cmds:
+      - docker run -p 6333:6333 qdrant/qdrant
